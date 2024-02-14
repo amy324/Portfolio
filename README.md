@@ -1,5 +1,7 @@
 # Portfolio
 
+I hold a Master of Research degree in statistics, bringing a solid foundation in advanced statistical theory to the world of engineering. With a passion for both mathematics and programming, I thoroughly enjoy demonstrating how statistical techniques and a deep understanding of mathematical theory can be leveraged in software engineering to solve challenges and develop resilient, scalable applications.  
+
 🔗 My GitHub serves as a curated showcase of projects, ranging from professional-level examples to smaller projects spotlighting specific skills and highlighting the versatility of Golang.
 
 Each public project on my profile has been specially crafted to serve as portfolio pieces. Please note, my professional work for clients is set to private as these remain confidential.
