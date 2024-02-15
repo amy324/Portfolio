@@ -64,7 +64,7 @@ Implementations of classic problems using Goroutines and Go concurrency features
 - [**Dijkstra's Algorithm for Shortest Paths**](https://github.com/amy324/Golang-Algorithm-for-Shortest-Paths)
 - [**Sleeping Barber Problem**](https://github.com/amy324/Golang-Sleeping-Barber-Problem)
 - [**Dining Philosophers Problem**](https://github.com/amy324/Dining-Philosophers-Problem)
-- [**Producer-Consumer Problem**](https://github.com/amy324/Dining-Philosophers-Problem)
+- [**Producer-Consumer Problem**](https://github.com/amy324/Goroutine-Producer-Consumer-Problem))
 
 ### CLI To-Do List App
 Demonstrates implementing CRUD funbctionality with Golang.
