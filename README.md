@@ -49,7 +49,7 @@ A powerful backend microservice built in Golang, designed to shorten long URLs i
 - Main_test.go file included
 - Detailed documentation, describing testing and demonstration of microservice usage.
 
-[Explore the URL Shortener Microservice on GitHub](https://github.com/amy324/Go-URL-Shortener-Microservice))
+[Explore the URL Shortener Microservice on GitHub](https://github.com/amy324/Go-URL-Shortener-Microservice)
 
 This project demonstrates expertise in backend development and provides a practical solution for managing lengthy URLs effectively.
 
