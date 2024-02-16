@@ -2,7 +2,7 @@
 
 I hold a Master of Research degree in statistics, bringing a solid foundation in advanced statistical theory to the world of engineering. With a passion for both mathematics and programming, I thoroughly enjoy demonstrating how statistical techniques and a deep understanding of mathematical theory can be leveraged in software engineering to solve challenges and develop resilient, scalable applications.  
 
-🔗 My GitHub serves as a curated showcase of projects, ranging from professional-level examples to smaller projects spotlighting specific skills and highlighting the versatility of Golang.
+🔗 My GitHub serves as a curated showcase of projects, ranging from professional-level examples to smaller projects that act as microservices or are demonstartive of specific skills and highlight the versatility of Golang.
 
 Each public project on my profile has been specially crafted to serve as portfolio pieces. Please note, my professional work for clients is set to private as these remain confidential.
 
@@ -35,7 +35,23 @@ A versatile and scalable framework tailored for conducting fully customizable so
 
 [Explore Advanced Data Analysis CLI Framework](https://github.com/amy324/CLI-Framework-for-Advanced-Analysis)
 
-## Skills-Based Projects
+## Demonstrative Projects/Microservices 
+
+### URL Shortener Microservice
+
+A powerful backend microservice built in Golang, designed to shorten long URLs into more manageable links, redirecting users seamlessly to their intended destinations. Leveraging Gorilla Mux for routing and Redis for efficient storage and retrieval of URL mappings, this microservice ensures fast and reliable URL shortening functionality.
+
+**Key Features**:
+- Efficient URL Shortening: Generate short, easy-to-share URLs for long web addresses.
+- Seamless Redirection: Direct users from short URLs to their corresponding long URLs effortlessly.
+- Robust Backend Architecture: Utilizes Gorilla Mux for routing and Redis for efficient data storage.
+- Scalable and Maintainable: Structured for scalability and easy maintenance, ensuring smooth operation even with high volumes of requests.
+- Main_test.go file included
+- Detailed documentation, describing testing and demonstration of microservice usage.
+
+[Explore the URL Shortener Microservice on GitHub](https://github.com/amy324/Go-URL-Shortener-Microservice))
+
+This project demonstrates expertise in backend development and provides a practical solution for managing lengthy URLs effectively.
 
 ### Monte Carlo Pi Simulator
 A CLI application performing a Monte Carlo simulation to estimate the value of π, utilizing Golang's concurrency features and plotting libraries for efficient computation and data visualization.
@@ -43,7 +59,7 @@ A CLI application performing a Monte Carlo simulation to estimate the value of �
 **Key Features**:
 - Golang Concurrency: Efficient generation and processing of random points concurrently.
 - Modular Structure: Organized for readability and maintainability.
-- Plotting with Gonum/Plot: Visualization of generated points for analysis.
+- Plotting with Gonum/Plot: Visualization of generated points for analysis. Saves scatter graph as a .png file to folder directory.
 
 [View Monte Carlo Pi Simulator on GitHub](https://github.com/amy324/Golang-Monte-Carlo-Simulator)
 
