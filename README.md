@@ -2,7 +2,7 @@
 
 I hold a Master of Research degree in statistics, bringing a solid foundation in advanced statistical theory to the world of engineering. With a passion for both mathematics and programming, I thoroughly enjoy demonstrating how statistical techniques and a deep understanding of mathematical theory can be leveraged in software engineering to solve challenges and develop resilient, scalable applications.  
 
-🔗 My GitHub serves as a curated showcase of projects, ranging from professional-level examples to smaller projects that act as microservices or are demonstartive of specific skills and highlight the versatility of Golang.
+🔗 My GitHub serves as a curated showcase of projects, ranging from professional-level examples to smaller projects that act as microservices or are demonstrative of specific skills and highlight the versatility of Golang.
 
 Each public project on my profile has been specially crafted to serve as portfolio pieces. Please note, my professional work for clients is set to private as these remain confidential.
 
@@ -58,6 +58,21 @@ A powerful backend microservice built in Golang, designed to shorten long URLs i
 [Explore the URL Shortener Microservice on GitHub](https://github.com/amy324/Go-URL-Shortener-Microservice)
 
 This project demonstrates expertise in backend development and provides a practical solution for managing lengthy URLs effectively.
+
+### Fake Payment Gateway Microservice
+
+The Fake Payment Gateway Microservice is a demonstration of card validation through a simple payment gateway, implemented in Golang. It allows users to submit payment information, including name, card number, payment amount, and currency, via HTTP requests. The server validates the credit card number using the Luhn algorithm and inserts the payment information into a PostgreSQL database. Clients can also retrieve invoice details using the payment ID.
+
+**Key Features**:
+- Card Validation: Utilizes the Luhn algorithm to validate credit card numbers.
+- Database Integration: Inserts payment information into a PostgreSQL database.
+- HTTP Endpoints: Provides endpoints for submitting payment information and retrieving invoice details.
+- Demonstrative Purposes: Intended for learning and demonstration, not for genuine payment processing.
+
+[Explore the Fake Payment Gateway Microservice on GitHub](https://github.com/amy324/Fake-Payment-Gateway)
+
+This project showcases fundamental card validation concepts and backend development skills, providing insight into payment gateway implementation.
+
 
 ### Monte Carlo Pi Simulator
 A CLI application performing a Monte Carlo simulation to estimate the value of π, utilizing Golang's concurrency features and plotting libraries for efficient computation and data visualization.
