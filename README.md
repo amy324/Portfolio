@@ -69,7 +69,7 @@ The Fake Payment Gateway Microservice is a demonstration of card validation thro
 - HTTP Endpoints: Provides endpoints for submitting payment information and retrieving invoice details.
 - Demonstrative Purposes: Intended for learning and demonstration, not for genuine payment processing.
 
-[Explore the Fake Payment Gateway Microservice on GitHub](https://github.com/amy324/Fake-Payment-Gateway)
+[Explore the Fake Payment Gateway Microservice on GitHub](https://github.com/amy324/Fake-Payment-Gateway-Microservice)
 
 This project showcases fundamental card validation concepts and backend development skills, providing insight into payment gateway implementation.
 
