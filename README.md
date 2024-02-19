@@ -8,7 +8,7 @@ Each public project on my profile has been specially crafted to serve as portfol
 
 [Explore my GitHub profile](https://github.com/amy324)
 
-## Professional-Level Examples
+## Large-Scale Examples
 
 ### Ticket Raising Platform Backend
 A comprehensive backend system demonstrating best practices in Golang development, including user authentication, ticket management, real-time communication, and email notifications.
@@ -36,6 +36,12 @@ A versatile and scalable framework tailored for conducting fully customizable so
 [Explore Advanced Data Analysis CLI Framework](https://github.com/amy324/CLI-Framework-for-Advanced-Analysis)
 
 ## Demonstrative Projects/Microservices 
+
+### Markdown to HTML Microservice
+This is a microservice written in Golang that converts Markdown syntax to HTML. It provides a function `MarkdownToHTML` that takes Markdown content as input and returns the corresponding HTML content. The `main.go` file contains the logic for converting Markdown to HTML. It defines the `MarkdownToHTML` function, which takes Markdown content as input and uses regular expressions to identify and replace Markdown syntax with corresponding HTML tags. This includes handling headings, bold and italic text, unordered and ordered lists, links, and images.
+Includes an example Markdown in `func main` - feel free to replace with any Markdown text to convert to HTML. Documentation provides expected terminal output.
+
+[Click here for the Markdown to HTML Microservice](https://github.com/amy324/Markdown-To-HTML-Microservice.git)
 
 ### URL Shortener Microservice
 
