@@ -1,6 +1,6 @@
 # Portfolio
 
-I hold a Master of Research degree in statistics, bringing a solid foundation in advanced statistical theory to the world of engineering. With a passion for both mathematics and programming, I thoroughly enjoy demonstrating how statistical techniques and a deep understanding of mathematical theory can be leveraged in software engineering to solve challenges and develop resilient, scalable applications.  
+Welcome to my portfolio page!
 
 🔗 My GitHub serves as a curated showcase of projects, ranging from professional-level examples to smaller projects that act as microservices or are demonstrative of specific skills and highlight the versatility of Golang.
 
@@ -8,7 +8,26 @@ Each public project on my profile has been specially crafted to serve as portfol
 
 [Explore my GitHub profile](https://github.com/amy324)
 
-## Large-Scale Examples
+## Large-Scale Projects
+
+1. [Ticket Raising Platform Backend](#ticket-raising-platform-backend)
+2. [Advanced Data Analysis CLI Framework](#advanced-data-analysis-cli-framework)
+
+## Microservices/Demonstrative Projects
+
+1. [Markdown to HTML Microservice](#markdown-to-html-microservice)
+2. [URL Shortener Microservice](#url-shortener-microservice)
+3. [Fake Payment Gateway Microservice](#fake-payment-gateway-microservice)
+4. [Monte Carlo Pi Simulator](#monte-carlo-pi-simulator)
+5. [CSV Parsing CLI Tool](#csv-parsing-cli-tool)
+6. [Classic Computer Science Problems Series](#classic-computer-science-problems-series)
+7. [CLI To-Do List App](#cli-to-do-list-app)
+8. [Golang Weather CLI App](#golang-weather-cli-app)
+9. [Golang RESTful API Demo](#golang-restful-api-demo)
+
+---
+
+## Large-Scale Projects
 
 ### Ticket Raising Platform Backend
 A comprehensive backend system demonstrating best practices in Golang development, including user authentication, ticket management, real-time communication, and email notifications.
