@@ -8,12 +8,13 @@ Each public project on my profile has been specially crafted to serve as portfol
 
 [Explore my GitHub profile](https://github.com/amy324)
 
-## Large-Scale Projects
+## Contents
+### Large-Scale Projects
 
 1. [Ticket Raising Platform Backend](#ticket-raising-platform-backend)
 2. [Advanced Data Analysis CLI Framework](#advanced-data-analysis-cli-framework)
 
-## Microservices/Demonstrative Projects
+### Microservices/Demonstrative Projects
 
 1. [Markdown to HTML Microservice](#markdown-to-html-microservice)
 2. [URL Shortener Microservice](#url-shortener-microservice)
