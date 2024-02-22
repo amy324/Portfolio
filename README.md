@@ -94,7 +94,8 @@ The Fake Payment Gateway Microservice is a demonstration of card validation thro
 This project showcases fundamental card validation concepts and backend development skills, providing insight into payment gateway implementation.
 
 ### Concurrent Task Scheduler
-<span style="color:red">**Tech**: Concurrency, Pointers, Goroutines, Mutexes, Logrus, sync, testing</span>.
+**Tech**: <span style="color:red">Concurrency, Pointers, Goroutines, Mutexes, Logrus, sync, testing</span>.
+
 
 Executes multiple tasks concurrently while limiting the maximum number of tasks running simultaneously.
 
