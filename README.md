@@ -51,8 +51,7 @@ Each public project on my profile has been specially crafted to serve as portfol
      - *[Producer-Consumer Problem](https://github.com/amy324/Goroutine-Producer-Consumer-Problem)*
           * **Tech:** Concurrency, Goroutines, Pointers, Syncronization, Buffer
 
-9.**[CLI To-Do List App](#cli-to-do-list-app)**
-      * **Tech:** Data structures, JSON response, API calls, encoding/json, flag, io, net/http, net/url
+9. **[CLI To-Do List App](#cli-to-do-list-app)**
     * **Tech:** CRUD (Create, Read, Update, Delete) operations, bufio, os, strconv
 
 10. **[Golang Weather CLI App](#golang-weather-cli-app)**
