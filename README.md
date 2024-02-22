@@ -10,6 +10,8 @@ Each public project on my profile has been specially crafted to serve as portfol
 
 ## Contents
 
+Click to view the summary of a specific project, or keep scrolling to see all:
+
 ### Large-Scale Projects
 
 1. **[Ticket Raising Platform Backend](#ticket-raising-platform-backend)**
