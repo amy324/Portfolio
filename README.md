@@ -13,7 +13,7 @@ Each public project on my profile has been specially crafted to serve as portfol
 ### Large-Scale Projects
 
 1. [Ticket Raising Platform Backend](#ticket-raising-platform-backend)
-     **Tech:** Gorilla/Mux, MySQl, JSON Web Tokens, bcrypt, Render, Mailtrap, net/http, validation, authentication, RESTful APIs, CRUD operations
+    *  **Tech:** Gorilla/Mux, MySQl, JSON Web Tokens, bcrypt, Render, Mailtrap, net/http, validation, authentication, RESTful APIs, CRUD operations
 
 2. [Advanced Data Analysis CLI Framework](#advanced-data-analysis-cli-framework)
      **Tech:** MySQL, Cobra, Python, Python, pandas, os/ex
