@@ -93,6 +93,25 @@ The Fake Payment Gateway Microservice is a demonstration of card validation thro
 
 This project showcases fundamental card validation concepts and backend development skills, providing insight into payment gateway implementation.
 
+### Concurrent Task Scheduler
+Executes multiple tasks concurrently while limiting the maximum number of tasks running simultaneously.
+
+- Concurrent Execution: Execute multiple tasks concurrently, maximizing resource utilization.
+- Concurrent Limit: Limit the maximum number of tasks running simultaneously to prevent resource exhaustion.
+- Logging: Utilize the Logrus package for structured logging, enabling detailed logging of task execution.
+
+[Check out the Concurrent Task Scheduler here](https://github.com/amy324/Concurrent-Task-Scheduler)
+
+### CI/CD Pipeline Automation Tool
+A command line tii for automating Continuous Integration and Continuous Deployment (CI/CD) pipelines for Go projects.#
+
+**Key Features**
+
+- Configuration: Easily configure CI/CD pipeline settings such as repository URL, branch name, and test script command.
+- Automation: Automate the execution of CI/CD tasks including fetching source code, running tests, and deploying artifacts.
+- Customization: Customize CI/CD workflows by specifying test scripts tailored to your project's needs.
+  
+[View the Project here](https://github.com/amy324/CI-CD-Pipeline-Automation-Tool)
 
 ### Monte Carlo Pi Simulator
 A CLI application performing a Monte Carlo simulation to estimate the value of π, utilizing Golang's concurrency features and plotting libraries for efficient computation and data visualization.
