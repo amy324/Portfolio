@@ -77,7 +77,7 @@ A comprehensive backend system demonstrating best practices in Golang developmen
 - Real-Time Communication: Messaging features embedded within ticket threads.
 - Email Notifications: Notifies users about ticket updates and relevant events, utilizing Mailtrap for testing purposes.
 - Data Persistence and Management: Utilizes MySQL for storing and managing data.
-- 
+
 
 [Explore Ticket Raising Platform Backend](https://github.com/amy324/Ticket-Raising-Platform-Backend)
 
