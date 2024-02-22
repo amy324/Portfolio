@@ -38,7 +38,7 @@ Each public project on my profile has been specially crafted to serve as portfol
 6. **[Monte Carlo Pi Simulator](#monte-carlo-pi-simulator)**
     * **Tech:** Concurrency, Modular Structure, Gonum/Plot
 
-7. **[CSV Parsing CLI Tool](#csv-parsing-cli-tool**)
+7. **[CSV Parsing CLI Tool](#csv-parsing-cli-tool)**
     * **Tech:** PostgreSQL, Lib/pq, Encoding/csv, os, Cobra, strconv
 
 8. **Classic Computer Science Problems Series**
