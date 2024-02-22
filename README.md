@@ -9,23 +9,52 @@ Each public project on my profile has been specially crafted to serve as portfol
 [Explore my GitHub profile](https://github.com/amy324)
 
 ## Contents
+
 ### Large-Scale Projects
 
 1. [Ticket Raising Platform Backend](#ticket-raising-platform-backend)
-     **Tech: Gorilla/Mux, MySQl, JSON Web Tokens, bcrypt, Render, Mailtrap, net/http, validation, authentication, RESTful APIs, CRUD operations**
+     **Tech:** Gorilla/Mux, MySQl, JSON Web Tokens, bcrypt, Render, Mailtrap, net/http, validation, authentication, RESTful APIs, CRUD operations
+
 2. [Advanced Data Analysis CLI Framework](#advanced-data-analysis-cli-framework)
+     **Tech:** MySQL, Cobra, Python, Python, pandas, os/ex
 
 ### Microservices/Demonstrative Projects
 
 1. [Markdown to HTML Microservice](#markdown-to-html-microservice)
+     **Tech:** Regex
+
 2. [URL Shortener Microservice](#url-shortener-microservice)
+     **Tech:** Redis, Gorilla/Mux, Godotenv, Encoding/JSON, net/http, os, Render, httptest, testing, APIs
+
 3. [Fake Payment Gateway Microservice](#fake-payment-gateway-microservice)
-4. [Monte Carlo Pi Simulator](#monte-carlo-pi-simulator)
-5. [CSV Parsing CLI Tool](#csv-parsing-cli-tool)
-6. [Classic Computer Science Problems Series](#classic-computer-science-problems-series)
-7. [CLI To-Do List App](#cli-to-do-list-app)
-8. [Golang Weather CLI App](#golang-weather-cli-app)
-9. [Golang RESTful API Demo](#golang-restful-api-demo)
+     **Tech:** PostgreSQL, Encoding/json, net/http, Goluhn, Gorilla/Mux, Lib/pq, validation
+
+4. [Concurrent Task Scheduler](#concurrent-task-scheduler)
+     **Tech:** Concurrency, Pointers, Goroutines, Mutexes, Logrus, sync, testing
+
+5. [CI/CD Pipeline Automation Tool](#ci/cd-pipeline-automation-tool)
+     **Tech:** CI/CD Pipeline Automation, Cobra, yaml, Go-Git
+
+6. [Monte Carlo Pi Simulator](#monte-carlo-pi-simulator)
+     **Tech:** Concurrency, Modular Structure, Gonum/Plot
+
+7. [CSV Parsing CLI Tool](#csv-parsing-cli-tool)
+     **Tech:** PostgreSQL, Lib/pq, Encoding/csv, os, Cobra, strconv
+
+8. [Classic Computer Science Problems Series](#classic-computer-science-problems-series)
+     - [Dijkstra's Algorithm for Shortest Paths](https://github.com/amy324/Golang-Algorithm-for-Shortest-Paths) **Tech:** initialize the graph, add edges, and calculate shortest paths from a specified source vertex
+     - [Sleeping Barber Problem](https://github.com/amy324/Golang-Sleeping-Barber-Problem) **Tech:** Concurrency, Pointers, Goroutines, Channels, Randomized, Time-Based.
+     - [Dining Philosophers Problem](https://github.com/amy324/Dining-Philosophers-Problem) **Tech:** Concurrency, Goroutines, Mutexes, Synchronization, Algorithm, testing
+     - [Producer-Consumer Problem](https://github.com/amy324/Goroutine-Producer-Consumer-Problem) **Tech:** Concurrency, Goroutines, Pointers, Syncronization, Buffer
+
+9. [CLI To-Do List App](#cli-to-do-list-app)
+     **Tech:** CRUD (Create, Read, Update, Delete) operations, bufio, os, strconv
+
+10. [Golang Weather CLI App](#golang-weather-cli-app)
+     **Tech:** Data structures, JSON response, API calls, encoding/json, flag, io, net/http, net/url
+
+11. [Golang RESTful API Demo](#golang-restful-api-demo)
+     **Tech:** RESTful API, encoding/json, net/http, Gorilla/Mux
 
 ---
 
