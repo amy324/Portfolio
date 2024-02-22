@@ -7,7 +7,7 @@ Welcome to my portfolio page!
 Each public project on my profile has been specially crafted to serve as portfolio pieces. Please note, my professional work for clients is set to private as these remain confidential.
 
 [Explore my GitHub profile](https://github.com/amy324)
-<span style="color: red">I am red</span>
+
 ## Contents
 ### Large-Scale Projects
 
@@ -94,8 +94,7 @@ The Fake Payment Gateway Microservice is a demonstration of card validation thro
 This project showcases fundamental card validation concepts and backend development skills, providing insight into payment gateway implementation.
 
 ### Concurrent Task Scheduler
-**Tech**: <span style="color:red">Concurrency, Pointers, Goroutines, Mutexes, Logrus, sync, testing</span>.
-
+**Tech: Concurrency, Pointers, Goroutines, Mutexes, Logrus, sync, testing.**
 
 Executes multiple tasks concurrently while limiting the maximum number of tasks running simultaneously.
 
@@ -107,7 +106,8 @@ Executes multiple tasks concurrently while limiting the maximum number of tasks 
 [Check out the Concurrent Task Scheduler here](https://github.com/amy324/Concurrent-Task-Scheduler)
 
 ### CI/CD Pipeline Automation Tool
-A command line tii for automating Continuous Integration and Continuous Deployment (CI/CD) pipelines for Go projects.#
+**CI/CD Pipeline Automation, Cobra, yaml, Go-Git.**
+A command line tool for automating Continuous Integration and Continuous Deployment (CI/CD) pipelines for Go projects.
 
 **Key Features**
 
@@ -143,6 +143,7 @@ Implementations of classic problems using Goroutines and Go concurrency features
 **Projects**:
 - [**Dijkstra's Algorithm for Shortest Paths**](https://github.com/amy324/Golang-Algorithm-for-Shortest-Paths)
 - [**Sleeping Barber Problem**](https://github.com/amy324/Golang-Sleeping-Barber-Problem)
+  **Tech: Concurrency, Pointers, Goroutines, Channels, Randomized, Time-Based.**
 - [**Dining Philosophers Problem**](https://github.com/amy324/Dining-Philosophers-Problem)
 - [**Producer-Consumer Problem**](https://github.com/amy324/Goroutine-Producer-Consumer-Problem)
 
