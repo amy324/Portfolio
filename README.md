@@ -52,6 +52,7 @@ Each public project on my profile has been specially crafted to serve as portfol
           * **Tech:** Concurrency, Goroutines, Pointers, Syncronization, Buffer
 
 9.**[CLI To-Do List App](#cli-to-do-list-app)**
+      * **Tech:** Data structures, JSON response, API calls, encoding/json, flag, io, net/http, net/url
     * **Tech:** CRUD (Create, Read, Update, Delete) operations, bufio, os, strconv
 
 10. **[Golang Weather CLI App](#golang-weather-cli-app)**
