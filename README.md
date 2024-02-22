@@ -96,6 +96,10 @@ This project showcases fundamental card validation concepts and backend developm
 ### Concurrent Task Scheduler
 Executes multiple tasks concurrently while limiting the maximum number of tasks running simultaneously.
 
+**Tech**:
+Concurrency, Pointers, Goroutines, Mutexes, Logrus, sync, testing
+
+**Key Features**:
 - Concurrent Execution: Execute multiple tasks concurrently, maximizing resource utilization.
 - Concurrent Limit: Limit the maximum number of tasks running simultaneously to prevent resource exhaustion.
 - Logging: Utilize the Logrus package for structured logging, enabling detailed logging of task execution.
