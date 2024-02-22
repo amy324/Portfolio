@@ -7,7 +7,7 @@ Welcome to my portfolio page!
 Each public project on my profile has been specially crafted to serve as portfolio pieces. Please note, my professional work for clients is set to private as these remain confidential.
 
 [Explore my GitHub profile](https://github.com/amy324)
-
+<span style="color: red">I am red</span>
 ## Contents
 ### Large-Scale Projects
 
