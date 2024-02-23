@@ -30,7 +30,7 @@ Click to view the summary of a specific project, or keep scrolling to see all:
 |**[CI/CD Pipeline Automation Tool](#ci/cd-pipeline-automation-tool)**   |CI/CD Pipeline Automation, Cobra, yaml, Go-Git  |
 |**[Monte Carlo Pi Simulator](#monte-carlo-pi-simulator)**  | Concurrency, Modular Structure, Gonum/Plot    |
 |**[CSV Parsing CLI Tool](#csv-parsing-cli-tool)**  | PostgreSQL, Lib/pq, Encoding/csv, os, Cobra, strconv   |
-|**[Classic Computer Science Problems Series](classic-computer-science-problems-series)**    | Concurrency, Pointers, Goroutines, Channels, Randomized, Time-Based, Mutexes, Synchronization, Algorithm, testing, Buffer  |
+|**[Classic Computer Science Problems Series](#classic-computer-science-problems-series)**    | Concurrency, Pointers, Goroutines, Channels, Randomized, Time-Based, Mutexes, Synchronization, Algorithm, testing, Buffer  |
 |**[CLI To-Do List App](#cli-to-do-list-app)** |CRUD (Create, Read, Update, Delete) operations, bufio, os, strconv  |
 |**[Golang Weather CLI App](#golang-weather-cli-app)**  |Data structures, JSON response, API calls, encoding/json, flag, io, net/http, net/url |
 |**[Golang RESTful API Demo](#golang-restful-api-demo)**  |RESTful API, encoding/json, net/http, Gorilla/Mux  |
