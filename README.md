@@ -67,7 +67,7 @@ A versatile and scalable framework tailored for conducting fully customizable so
 - Database Interaction: Seamless connection to MySQL databases for storing and retrieving results.
 - Customizable Analysis & Python Script Integration: Users can run custom scripts, integrating Python or Golang commands.
 - Includes an completed Python script as an example which performs logistic regression analysis after parsing CSV data.
-- Machine Learning with sklearn in Python script
+- Machine Learning with sklearn in Python script.
 - Command-Line Interface: Utilizes Cobra library for user-friendly interactions.
 
 
