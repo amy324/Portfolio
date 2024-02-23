@@ -14,11 +14,10 @@ Click to view the summary of a specific project, or keep scrolling to see all:
 
 ### Large-Scale Projects
 
-1. **[Ticket Raising Platform Backend](#ticket-raising-platform-backend)**
-    *  **Tech:** Gorilla/Mux, MySQl, JSON Web Tokens, bcrypt, Render, Mailtrap, net/http, validation, authentication, RESTful APIs, CRUD operations
-
-2. **[Advanced Data Analysis CLI Framework](#advanced-data-analysis-cli-framework)**
-    * **Tech:** MySQL, Cobra, Python, Python, pandas, os/ex
+| Project | Tech|
+|----------|----------|
+| **[Ticket Raising Platform Backend](#ticket-raising-platform-backend)**   | Gorilla/Mux, MySQl, JSON Web Tokens, bcrypt, Render, Mailtrap, net/http, validation, authentication, RESTful APIs, CRUD operations   |
+| **[Advanced Data Analysis CLI Framework](#advanced-data-analysis-cli-framework)**   | MySQL, Cobra, Python, Python, pandas, os/ex    |
 
 ### Microservices/Demonstrative Projects
 
