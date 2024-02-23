@@ -17,7 +17,7 @@ Click to view the summary of a specific project, or keep scrolling to see all:
 | Project | Tech|
 |----------|----------|
 | **[Ticket Raising Platform Backend](#ticket-raising-platform-backend)**   | Gorilla/Mux, MySQl, JSON Web Tokens, bcrypt, Render, Mailtrap, net/http, validation, authentication, RESTful APIs, CRUD operations   |
-| **[Advanced Data Analysis CLI Framework](#advanced-data-analysis-cli-framework)**   | MySQL, Cobra, Python, Python, pandas, os/ex    |
+| **[Advanced Data Analysis CLI Framework](#advanced-data-analysis-cli-framework)**   | MySQL, Cobra, Python, Python, pandas,sklearn Machine Learning, os/ex    |
 
 ### Microservices/Demonstrative Projects
 
@@ -58,7 +58,7 @@ A comprehensive backend system demonstrating best practices in Golang developmen
 [Explore Ticket Raising Platform Backend](https://github.com/amy324/Ticket-Raising-Platform-Backend)
 
 ### Advanced Data Analysis CLI Framework
-**Tech: MySQL, Cobra, Python, Python, pandas, os/ex**
+**Tech: MySQL, Cobra, Python, Python, pandas, sklearn, os/ex**
 
 A versatile and scalable framework tailored for conducting fully customizable sophisticated data analysis tasks through a command-line interface. Its design and functionality closely resemble a custom program I developed for a client, showcasing its adaptability and effectiveness in real-world scenarios.
 
@@ -66,6 +66,8 @@ A versatile and scalable framework tailored for conducting fully customizable so
 - Modular Structure: Scalable and maintainable with distinct modules.
 - Database Interaction: Seamless connection to MySQL databases for storing and retrieving results.
 - Customizable Analysis & Python Script Integration: Users can run custom scripts, integrating Python or Golang commands.
+- Includes an completed Python script as an example which performs logistic regression analysis after parsing CSV data.
+- Machine Learning with sklearn in Python script
 - Command-Line Interface: Utilizes Cobra library for user-friendly interactions.
 
 
