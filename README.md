@@ -21,45 +21,22 @@ Click to view the summary of a specific project, or keep scrolling to see all:
 
 ### Microservices/Demonstrative Projects
 
-1. **[Markdown to HTML Microservice](#markdown-to-html-microservice)**
-    * **Tech:** Regex
+| Project | Tech|
+|----------|----------|
+| **[Markdown to HTML Microservice](#markdown-to-html-microservice)**  | Regex  |
+|   **[URL Shortener Microservice](#url-shortener-microservice)**  | Redis, Gorilla/Mux, Godotenv, Encoding/JSON, net/http, os, Render, httptest, testing, APIs   |
+|**[Fake Payment Gateway Microservice](#fake-payment-gateway-microservice)** |  PostgreSQL, Encoding/json, net/http, Goluhn, Gorilla/Mux, Lib/pq, validation
+|**[Concurrent Task Scheduler](#concurrent-task-scheduler)** | Concurrency, Pointers, Goroutines, Mutexes, Logrus, sync, testing  |
+|**[CI/CD Pipeline Automation Tool](#ci/cd-pipeline-automation-tool)**   |CI/CD Pipeline Automation, Cobra, yaml, Go-Git  |
+|**[Monte Carlo Pi Simulator](#monte-carlo-pi-simulator)**  | Concurrency, Modular Structure, Gonum/Plot    |
+|**[CSV Parsing CLI Tool](#csv-parsing-cli-tool)**  | PostgreSQL, Lib/pq, Encoding/csv, os, Cobra, strconv   |
+|**[Classic Computer Science Problems Series](classic-computer-science-problems-series)**    | Concurrency, Pointers, Goroutines, Channels, Randomized, Time-Based, Mutexes, Synchronization, Algorithm, testing, Buffer  |
+|**[CLI To-Do List App](#cli-to-do-list-app)** |CRUD (Create, Read, Update, Delete) operations, bufio, os, strconv  |
+|**[Golang Weather CLI App](#golang-weather-cli-app)**  |Data structures, JSON response, API calls, encoding/json, flag, io, net/http, net/url |
+|**[Golang RESTful API Demo](#golang-restful-api-demo)**  |RESTful API, encoding/json, net/http, Gorilla/Mux  |
 
-2. **[URL Shortener Microservice](#url-shortener-microservice)**
-    * **Tech:** Redis, Gorilla/Mux, Godotenv, Encoding/JSON, net/http, os, Render, httptest, testing, APIs
 
-3. **[Fake Payment Gateway Microservice](#fake-payment-gateway-microservice)**
-    * **Tech:** PostgreSQL, Encoding/json, net/http, Goluhn, Gorilla/Mux, Lib/pq, validation
 
-4. **[Concurrent Task Scheduler](#concurrent-task-scheduler)**
-    * **Tech:** Concurrency, Pointers, Goroutines, Mutexes, Logrus, sync, testing
-
-5. **[CI/CD Pipeline Automation Tool](#ci/cd-pipeline-automation-tool)**
-    * **Tech:** CI/CD Pipeline Automation, Cobra, yaml, Go-Git
-
-6. **[Monte Carlo Pi Simulator](#monte-carlo-pi-simulator)**
-    * **Tech:** Concurrency, Modular Structure, Gonum/Plot
-
-7. **[CSV Parsing CLI Tool](#csv-parsing-cli-tool)**
-    * **Tech:** PostgreSQL, Lib/pq, Encoding/csv, os, Cobra, strconv
-
-8. **Classic Computer Science Problems Series**
-     - *[Dijkstra's Algorithm for Shortest Paths](https://github.com/amy324/Golang-Algorithm-for-Shortest-Paths)*
-          * **Tech:** initialize the graph, add edges, and calculate shortest paths from a specified source vertex
-     - *[Sleeping Barber Problem](https://github.com/amy324/Golang-Sleeping-Barber-Problem)*
-          * **Tech:** Concurrency, Pointers, Goroutines, Channels, Randomized, Time-Based.
-     - *[Dining Philosophers Problem](https://github.com/amy324/Dining-Philosophers-Problem)*
-          * **Tech:** Concurrency, Goroutines, Mutexes, Synchronization, Algorithm, testing
-     - *[Producer-Consumer Problem](https://github.com/amy324/Goroutine-Producer-Consumer-Problem)*
-          * **Tech:** Concurrency, Goroutines, Pointers, Syncronization, Buffer
-
-9. **[CLI To-Do List App](#cli-to-do-list-app)**
-    * **Tech:** CRUD (Create, Read, Update, Delete) operations, bufio, os, strconv
-
-10. **[Golang Weather CLI App](#golang-weather-cli-app)**
-    * **Tech:** Data structures, JSON response, API calls, encoding/json, flag, io, net/http, net/url
-
-11. **[Golang RESTful API Demo](#golang-restful-api-demo)**
-    * **Tech:** RESTful API, encoding/json, net/http, Gorilla/Mux
 
 ---
 
