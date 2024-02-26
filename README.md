@@ -27,7 +27,7 @@ Click to view the summary of a specific project, or keep scrolling to see all:
 |   **[URL Shortener Microservice](#url-shortener-microservice)**  | Redis, Gorilla/Mux, Godotenv, Encoding/JSON, net/http, os, Render, httptest, testing, APIs   |
 |**[Fake Payment Gateway Microservice](#fake-payment-gateway-microservice)** |  PostgreSQL, Encoding/json, net/http, Goluhn, Gorilla/Mux, Lib/pq, validation
 |**[Concurrent Task Scheduler](#concurrent-task-scheduler)** | Concurrency, Pointers, Goroutines, Mutexes, Logrus, sync, testing  |
-|**[CI/CD Pipeline Automation Tool](#ci-/-cd-pipeline-automation-tool)**   |CI/CD Pipeline Automation, Cobra, yaml, Go-Git  |
+|**[CI/CD Pipeline Automation Tool](#ci-cd-pipeline-automation-tool)**   |CI/CD Pipeline Automation, Cobra, yaml, Go-Git  |
 |**[Monte Carlo Pi Simulator](#monte-carlo-pi-simulator)**  | Concurrency, Modular Structure, Gonum/Plot    |
 |**[CSV Parsing CLI Tool](#csv-parsing-cli-tool)**  | PostgreSQL, Lib/pq, Encoding/csv, os, Cobra, strconv   |
 |**[Classic Computer Science Problems Series](#classic-computer-science-problems-series)**    | Concurrency, Pointers, Goroutines, Channels, Randomized, Time-Based, Mutexes, Synchronization, Algorithm, testing, Buffer  |
@@ -127,7 +127,7 @@ Executes multiple tasks concurrently while limiting the maximum number of tasks 
 
 [Check out the Concurrent Task Scheduler here](https://github.com/amy324/Concurrent-Task-Scheduler)
 
-### CI/CD Pipeline Automation Tool
+### CI-CD Pipeline Automation Tool
 **CI/CD Pipeline Automation, Cobra, yaml, Go-Git.**
 
 A command line tool for automating Continuous Integration and Continuous Deployment (CI/CD) pipelines for Go projects.
