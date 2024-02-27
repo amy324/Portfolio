@@ -62,6 +62,21 @@ A comprehensive backend system demonstrating best practices in Golang developmen
 ### Steam Games Data CLI App
 **Tech: Web Scraping, Goquery, Cobra, Encoding, JSON parsing, CSV parsing, regex, os/exec, bufio, bytes, net/http**
 
+A command-line tool written in Go for scraping game data from the Steam store. This project serves as a portfolio piece showcasing web scraping, JSON and CSV file handling, concurrent HTTP requests, and command-line interface (CLI) implementation using Cobra.
+
+The Steam Games Data CLI App allows users to access and explore information about games available on the Steam  platform through a streamlined command-line interface. Leveraging web scraping techniques, the application retrieves valuable data such as game titles, prices, release dates, reviews, tags, developers, and publishers, as well a system requirements directly from the Steam store website.
+
+**Key Features**:
+
+- Game Data Retrieval: The application utilizes goquery and scrapes data from the Steam store website, including game titles, prices, release dates, reviews, and tags. It exports this data to both a JSON and CSV file as `games.csv` and `games.json`, respectively. 
+- User Interaction: Users can interact with the application through a command-line interface (CLI), providing keywords to search for specific games and selecting actions such as opening JSON or CSV files directly from the command-line.
+- Detailed Information: Users can access detailed information about individual games, including developer, publisher, description, and system requirements.
+- Additional Details: Prompt the user to input a game link for scraping additional details such as developer, publisher, description, and system requirements.
+- Compliance: The application ensures compliance with the Steam Data Terms of Use, respecting user privacy and data handling practices outlined by Valve Corporation.
+
+[Explore Steam Games Data CLI App](https://github.com/amy324/Steam-Games-Data-CLI-App)
+
+
 ### Advanced Data Analysis CLI Framework
 **Tech: MySQL, Cobra, Python, Python, pandas, sklearn, os/ex**
 
