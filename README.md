@@ -17,7 +17,9 @@ Click to view the summary of a specific project, or keep scrolling to see all:
 | Project | Tech|
 |----------|----------|
 | **[Ticket Raising Platform Backend](#ticket-raising-platform-backend)**   | Gorilla/Mux, MySQl, JSON Web Tokens, bcrypt, Render, Mailtrap, net/http, validation, authentication, RESTful APIs, CRUD operations   |
+| **[Steam Games Data CLI App](#steam-games-data-cli-app)**   | Web Scraping, Goquery, Cobra, Encoding, JSON parsing, CSV parsing, regex, os/exec, bufio, bytes, net/http   |
 | **[Advanced Data Analysis CLI Framework](#advanced-data-analysis-cli-framework)**   | MySQL, Cobra, Python, Python, pandas, sklearn Machine Learning, os/ex    |
+
 
 ### Microservices/Demonstrative Projects
 
@@ -56,6 +58,9 @@ A comprehensive backend system demonstrating best practices in Golang developmen
 
 
 [Explore Ticket Raising Platform Backend](https://github.com/amy324/Ticket-Raising-Platform-Backend)
+
+### Steam Games Data CLI App
+**Tech: Web Scraping, Goquery, Cobra, Encoding, JSON parsing, CSV parsing, regex, os/exec, bufio, bytes, net/http**
 
 ### Advanced Data Analysis CLI Framework
 **Tech: MySQL, Cobra, Python, Python, pandas, sklearn, os/ex**
