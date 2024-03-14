@@ -18,6 +18,7 @@ Click to view the summary of a specific project, or keep scrolling to see all:
 |----------|----------|
 | **[Ticket Raising Platform Backend](#ticket-raising-platform-backend)**   | Gorilla/Mux, MySQl, JSON Web Tokens, bcrypt, Render, Mailtrap, net/http, validation, authentication, RESTful APIs, CRUD operations   |
 | **[Steam Games Data CLI App](#steam-games-data-cli-app)**   | Web Scraping, Goquery, Cobra, Encoding, JSON parsing, CSV parsing, regex, os/exec, bufio, bytes, net/http   |
+| **[Blogging Platform Infastructure](#blogging-platform-infastructure)**   | IaC, Terraform, Prometheus, Docker, Golang, PostgreSQL  |
 | **[Advanced Data Analysis CLI Framework](#advanced-data-analysis-cli-framework)**   | MySQL, Cobra, Python, Python, pandas, sklearn Machine Learning, os/ex    |
 
 
@@ -76,6 +77,19 @@ The Steam Games Data CLI App allows users to access and explore information abou
 
 [Explore Steam Games Data CLI App](https://github.com/amy324/Steam-Games-Data-CLI-App)
 
+## Blogging Platform Infastructure
+**Tech: IaC, Terraform, Prometheus, Docker, Golang, PostgreSQL**
+
+A blogging platform infrastructure designed with a focus on reliability, scalability, and observability, following best practices of Site Reliability Engineering (SRE). This project implements the infrastructure for a simple blogging platform using Docker containers orchestrated with Terraform. The platform includes a RESTful API for managing posts, PostgreSQL for storing data and utilizes Prometheus for monitoring purpose
+
+**Key Features**:
+
+- **Containerization**: The application components are containerized using Docker, providing consistency and isolation across environments.
+- **Orchestration**: Terraform is used for infrastructure as code (IaC) to define and manage the deployment of Docker containers, ensuring consistency and reproducibility of the infrastructure setup.
+- **Monitoring**: Prometheus is integrated into the infrastructure to collect and store application metrics, allowing for real-time monitoring and alerting on key performance indicators (KPIs) and service-level objectives (SLOs).
+- **Automation**: The infrastructure setup is automated using Terraform, enabling seamless provisioning, scaling, and teardown of resources, reducing manual intervention and human error.
+- **Resilience**: The platform is designed with fault tolerance and redundancy in mind, utilizing features such as container health checks, automatic container restarts, and database replication for data durability.
+- **Scalability**: The infrastructure architecture supports horizontal scalability, allowing for dynamic scaling of application instances based on demand using Docker Swarm or Kubernetes in production environments.
 
 ### Advanced Data Analysis CLI Framework
 **Tech: MySQL, Cobra, Python, Python, pandas, sklearn, os/ex**
