@@ -91,7 +91,7 @@ A blogging platform infrastructure designed with a focus on reliability, scalabi
 - **Resilience**: The platform is designed with fault tolerance and redundancy in mind, utilizing features such as container health checks, automatic container restarts, and database replication for data durability.
 - **Scalability**: The infrastructure architecture supports horizontal scalability, allowing for dynamic scaling of application instances based on demand using Docker Swarm or Kubernetes in production environments.
 
-[Check out the project here](https://github.com/amy324/Blogging-Platform-Infrastructure)
+[Check Out The Project Here](https://github.com/amy324/Blogging-Platform-Infrastructure)
 
 ### Advanced Data Analysis CLI Framework
 **Tech: MySQL, Cobra, Python, Python, pandas, sklearn, os/ex**
