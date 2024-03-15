@@ -18,7 +18,7 @@ Click to view the summary of a specific project, or keep scrolling to see all:
 |----------|----------|
 | **[Ticket Raising Platform Backend](#ticket-raising-platform-backend)**   | Gorilla/Mux, MySQl, JSON Web Tokens, bcrypt, Render, Mailtrap, net/http, validation, authentication, RESTful APIs, CRUD operations   |
 | **[Steam Games Data CLI App](#steam-games-data-cli-app)**   | Web Scraping, Goquery, Cobra, Encoding, JSON parsing, CSV parsing, regex, os/exec, bufio, bytes, net/http   |
-| **[Blogging Platform Infastructure](#blogging-platform-infastructure)**   | IaC, Terraform, Prometheus, Docker, Golang, PostgreSQL  |
+| **[Blogging Platform Infastructure](#blogging-platform-infastructure)**   | IaC, Terraform, Prometheus, Docker, Golang, Gin, CockroachDB |
 | **[Advanced Data Analysis CLI Framework](#advanced-data-analysis-cli-framework)**   | MySQL, Cobra, Python, Python, pandas, sklearn Machine Learning, os/ex    |
 
 
@@ -78,7 +78,7 @@ The Steam Games Data CLI App allows users to access and explore information abou
 [Explore Steam Games Data CLI App](https://github.com/amy324/Steam-Games-Data-CLI-App)
 
 ## Blogging Platform Infastructure
-**Tech: IaC, Terraform, Prometheus, Docker, Golang, PostgreSQL**
+**Tech: IaC, Terraform, Prometheus, Docker, Golang, Gin, CockroachDB**
 
 A blogging platform infrastructure designed with a focus on reliability, scalability, and observability, following best practices of Site Reliability Engineering (SRE). This project implements the infrastructure for a simple blogging platform using Docker containers orchestrated with Terraform. The platform includes a RESTful API for managing posts, PostgreSQL for storing data and utilizes Prometheus for monitoring purpose
 
