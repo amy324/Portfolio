@@ -2,7 +2,7 @@
 
 Welcome to my portfolio page!
 
-🔗 My GitHub serves as a curated showcase of projects, ranging from professional-level examples to smaller projects that act as microservices or are demonstrative of specific skills and highlight the versatility of Golang.
+🔗 My GitHub serves as a curated showcase of projects, ranging from professional-level examples to smaller projects that act as microservices or are demonstrative of specific skills. Most projects here use Golang, as its my favourite language to use (mostly due to the fact that it compiles direcrtly to machine code and its efficency).
 
 Each public project on my profile has been specially crafted to serve as portfolio pieces. Please note, my professional work for clients is set to private as these remain confidential.
 
