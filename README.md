@@ -2,7 +2,7 @@
 
 Welcome to my portfolio page!
 
-🔗 My GitHub serves as a curated showcase of projects, ranging from professional-level examples to compact yet impactful microservices and skill-specific demonstrations.  sMost projects here use Golang, as its my favourite language to use (mostly due to the fact that it compiles direcrtly to machine code and its efficency).
+🔗 My GitHub serves as a curated showcase of projects, ranging from larger-scale applications to compact yet impactful microservices and skill-specific demonstrations. Most projects here use Golang, as it is my favourite language to use (mostly due to the fact that it compiles direcrtly to machine code and its efficency).
 
 Every project here, whether in the large-scale or microservices/demonstrative section, includes detailed documentation. This comprehensive documentation leads you through methodologies, code insights, and usage instructions step by step. Embracing open source ethos, I've consciously integrated mainly open source and free software, frameworks, and tools into my projects to ensure accessibility - this along with how the documentation is structured, allows for each project to be replicated and customized, illustrating how these creations can serve as robust foundations for professional ventures with minor adjustments, such as transitioning from Render to AWS for deployment etc.
 
