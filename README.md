@@ -2,7 +2,9 @@
 
 Welcome to my portfolio page!
 
-🔗 My GitHub serves as a curated showcase of projects, ranging from professional-level examples to smaller projects that act as microservices or are demonstrative of specific skills. Most projects here use Golang, as its my favourite language to use (mostly due to the fact that it compiles direcrtly to machine code and its efficency).
+🔗 My GitHub serves as a curated showcase of projects, ranging from professional-level examples to compact yet impactful microservices and skill-specific demonstrations.  sMost projects here use Golang, as its my favourite language to use (mostly due to the fact that it compiles direcrtly to machine code and its efficency).
+
+Every project here, whether in the large-scale or microservices/demonstrative section, includes detailed documentation. This comprehensive documentation leads you through methodologies, code insights, and usage instructions step by step. Embracing open source ethos, I've consciously integrated mainly open source and free software, frameworks, and tools into my projects to ensure accessibility - this along with how the documentation is structured, allows for each project to be replicated and customized, illustrating how these creations can serve as robust foundations for professional ventures with minor adjustments, such as transitioning from Render to AWS for deployment etc.
 
 Each public project on my profile has been specially crafted to serve as portfolio pieces. Please note, my professional work for clients is set to private as these remain confidential.
 
@@ -18,7 +20,7 @@ Click to view the summary of a specific project, or keep scrolling to see all:
 |----------|----------|
 | **[Ticket Raising Platform Backend](#ticket-raising-platform-backend)**   | Gorilla/Mux, MySQl, JSON Web Tokens, bcrypt, Render, Mailtrap, net/http, validation, authentication, RESTful APIs, CRUD operations   |
 | **[Steam Games Data CLI App](#steam-games-data-cli-app)**   | Web Scraping, Goquery, Cobra, Encoding, JSON parsing, CSV parsing, regex, os/exec, bufio, bytes, net/http   |
-| **[Blogging Platform Infastructure](#blogging-platform-infastructure)**   | IaC, Terraform, Prometheus, Docker, Golang, Gin, ORM, PostgreSQL |
+| **[Blogging Platform Infastructure](#blogging-platform-infastructure)**   | IaC, Terraform, HCL, Prometheus, Docker, Golang, Gin, ORM, PostgreSQL |
 | **[Advanced Data Analysis CLI Framework](#advanced-data-analysis-cli-framework)**   | MySQL, Cobra, Python, Python, pandas, sklearn Machine Learning, os/ex    |
 
 
@@ -37,8 +39,6 @@ Click to view the summary of a specific project, or keep scrolling to see all:
 |**[CLI To-Do List App](#cli-to-do-list-app)** |CRUD (Create, Read, Update, Delete) operations, bufio, os, strconv  |
 |**[Golang Weather CLI App](#golang-weather-cli-app)**  |Data structures, JSON response, API calls, encoding/json, flag, io, net/http, net/url |
 |**[Golang RESTful API Demo](#golang-restful-api-demo)**  |RESTful API, encoding/json, net/http, Gorilla/Mux  |
-
-
 
 
 ---
@@ -78,7 +78,7 @@ The Steam Games Data CLI App allows users to access and explore information abou
 [Explore Steam Games Data CLI App](https://github.com/amy324/Steam-Games-Data-CLI-App)
 
 ## Blogging Platform Infastructure
-**Tech: IaC, Terraform, Prometheus, Docker, Golang, Gin, ORM, PostgreSQL**
+**Tech: IaC, Terraform, HCL, Prometheus, Docker, Golang, Gin, ORM, PostgreSQL**
 
 A blogging platform infrastructure designed with a focus on reliability, scalability, and observability, following best practices of Site Reliability Engineering (SRE). This project implements the infrastructure for a simple blogging platform using Docker containers orchestrated with Terraform. The platform includes a RESTful API for managing posts, PostgreSQL for storing data and utilizes Prometheus for monitoring purpose
 
