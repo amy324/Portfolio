@@ -6,7 +6,7 @@ Welcome to my portfolio page!
 
 Every project here, whether in the large-scale or microservices/demonstrative section, includes detailed documentation. This comprehensive documentation leads you through methodologies, code insights, and usage instructions step by step. Embracing open source ethos, I've consciously integrated mainly open source and free software, frameworks, and tools into my projects to ensure accessibility - this along with how the documentation is structured, allows for each project to be replicated and customized, illustrating how these creations can serve as robust foundations for professional ventures with minor adjustments, such as transitioning from Render to AWS for deployment etc.
 
-Each public project on my profile has been specially crafted to serve as portfolio pieces. Please note, my professional work for clients is set to private as these remain confidential.
+Each public project on my profile has been specially crafted to serve as portfolio pieces. Please note, my professional work for clients is set to private as these remain confidential. However, [this repository](https://github.com/amy324/Professional-Project-Details) contains detailed case studies for three professional projects that I have worked on. While the actual products developed for these projects are confidential and cannot be shared publicly, I have been granted permission to share these comprehensive write-ups outlining the project objectives, technologies used, key features, and integrations. The case studies provide insights into the project scope, technologies utilized, and strategies employed, without revealing sensitive information.
 
 [Explore my GitHub profile](https://github.com/amy324)
 
