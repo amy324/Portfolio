@@ -10,8 +10,7 @@ These projects are deliberately quick and kept small and focused. They demonstra
 
 Most are written in Go, which I particularly enjoy for systems programming, concurrency and building efficient, self-contained tools.
 
-Every public project includes documentation covering how it works, relevant design decisions and how to run it yourself.
-**[Explore my GitHub profile](https://github.com/amy324)**
+Every project here includes documentation covering how it works, relevant design decisions and how to run it yourself.
 
 ## Contents
 
