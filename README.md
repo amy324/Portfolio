@@ -55,7 +55,7 @@ A full backend for a support ticket system built around Go's standard net/http, 
 - Full CRUD on tickets, with categorisation and tracking
 - In-thread messaging on tickets
 - Email notifications on ticket updates (tested via Mailtrap)
-- 
+  
 [Explore Ticket Raising Platform Backend](https://github.com/amy324/Ticket-Raising-Platform-Backend)
 
 ### Steam Games Data CLI App
