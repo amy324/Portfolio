@@ -1,202 +1,155 @@
+
+
 # Portfolio
 
-Hiy! Welcome to my portfolio.
+Hi! Welcome to my personal portfolio.
 
-My GitHub is where I keep projects I've built outside of work, everything from larger apps to small, focused microservices that each demonstrate a specific skill. Most of it is written in Go because I like that it compiles straight to machine code and how efficient it is.
+My professional work involves large-scale infrastructure and production systems, but those projects and environments remain confidential and aren't represented here. Instead, this portfolio contains a collection of fun little projects I've built outside of my professional work.
 
-Every project has  documentation showing how it works, why I made certain decisions, and how to run it yourself. I try to stick to open source tools wherever possible, so anything here can be customised if you want to build on it. Note: this is my personal account, so it doesn't include client or employer work..
+These projects are deliberately quick and kept small and focused. They demonstrate particular technologies and coding concepts without turning each idea into a full-scale application.
 
-Each public project on my profile has been specially crafted to serve as portfolio pieces. Please note, this is my personal account and does not include any of my professional projects, as these remain confidential. 
+Most are written in Go, which I particularly enjoy for systems programming, concurrency and building efficient, self-contained tools.
 
-[Explore my GitHub profile](https://github.com/amy324)
+Every public project includes documentation covering how it works, relevant design decisions and how to run it yourself.
+**[Explore my GitHub profile](https://github.com/amy324)**
 
 ## Contents
 
-Click to view the summary of a specific project, or keep scrolling to see all:
+Click a project to view its summary, or keep scrolling to see them all.
 
-### Larger Projects
+| Project                                                                           | Technologies                                   |
+| --------------------------------------------------------------------------------- | ---------------------------------------------- |
+| **[Ticket Raising Platform Backend](#ticket-raising-platform-backend)**           | Go, MySQL, REST APIs, JWT, bcrypt, Gorilla/Mux |
+| **[Steam Games Data CLI App](#steam-games-data-cli-app)**                         | Go, Web Scraping, Cobra, JSON, CSV, regex      |
+| **[Blogging Platform Infrastructure](#blogging-platform-infrastructure)**         | Terraform, Docker, Prometheus, Go, PostgreSQL  |
+| **[Advanced Data Analysis CLI Framework](#advanced-data-analysis-cli-framework)** | Go, Python, MySQL, Cobra, pandas, scikit-learn |
+| **[CI/CD Pipeline Automation Tool](#cicd-pipeline-automation-tool)**             | Go, Cobra, YAML, Go-Git                        |
+| **[Concurrent Task Scheduler](#concurrent-task-scheduler)**                       | Go, Goroutines, Mutexes, Concurrency, Testing  |
+| **[URL Shortener Microservice](#url-shortener-microservice)**                     | Go, Redis, Gorilla/Mux, REST APIs, Testing     |
+| **[Fake Payment Gateway Microservice](#fake-payment-gateway-microservice)**       | Go, PostgreSQL, REST APIs, Validation          |
+| **[Port Scanner](#port-scanner)**                                                 | Python, Socket Programming, TCP/IP, CLI        |
+| **[Markdown to HTML Microservice](#markdown-to-html-microservice)**               | Go, Regex                                      |
 
-| Project | Tech|
-|----------|----------|
-| **[Ticket Raising Platform Backend](#ticket-raising-platform-backend)**   | Gorilla/Mux, MySQl, JSON Web Tokens, bcrypt, Render, Mailtrap, net/http, validation, authentication, RESTful APIs, CRUD operations   |
-| **[Steam Games Data CLI App](#steam-games-data-cli-app)**   | Web Scraping, Goquery, Cobra, Encoding, JSON parsing, CSV parsing, regex, os/exec, bufio, bytes, net/http   |
-| **[Blogging Platform Infastructure](#blogging-platform-infastructure)**   | IaC, Terraform, HCL, Prometheus, Docker, Golang, Gin, ORM, PostgreSQL |
-| **[Advanced Data Analysis CLI Framework](#advanced-data-analysis-cli-framework)**   | MySQL, Cobra, Python, Python, pandas, sklearn Machine Learning, os/ex    |
-
-
-### Microservices/Demonstrative Projects
-
-| Project | Tech|
-|----------|----------|
-| **[Port Scanner](#port-scanner)** | Python, Socket Programming, CLI, TCP, IP Address Scanning, Network Troubleshooting, Monitoring, Networking Protocols, Date and Time Handling, ASCII Art |
-| **[CI/CD Pipeline Automation Tool](#ci-cd-pipeline-automation-tool)**   |CI/CD Pipeline Automation, Cobra, yaml, Go-Git  |
-| **[Concurrent Task Scheduler](#concurrent-task-scheduler)** | Concurrency, Pointers, Goroutines, Mutexes, Logrus, sync, testing  |
-| **[Markdown to HTML Microservice](#markdown-to-html-microservice)**  | Regex  |
-|   **[URL Shortener Microservice](#url-shortener-microservice)**  | Redis, Gorilla/Mux, Godotenv, Encoding/JSON, net/http, os, Render, httptest, testing, APIs   |
-|**[Fake Payment Gateway Microservice](#fake-payment-gateway-microservice)** |  PostgreSQL, Encoding/json, net/http, Goluhn, Gorilla/Mux, Lib/pq, validation |
-| **[Monte Carlo Pi Simulator](#monte-carlo-pi-simulator)**  | Concurrency, Modular Structure, Gonum/Plot    |
-| **[CSV Parsing CLI Tool](#csv-parsing-cli-tool)**  | PostgreSQL, Lib/pq, Encoding/csv, os, Cobra, strconv   |
-| **[Classic Computer Science Problems Series](#classic-computer-science-problems-series)**    | Concurrency, Pointers, Goroutines, Channels, Randomized, Time-Based, Mutexes, Synchronization, Algorithm, testing, Buffer  |
-| **[CLI To-Do List App](#cli-to-do-list-app)** |CRUD (Create, Read, Update, Delete) operations, bufio, os, strconv  |
-| **[Golang Weather CLI App](#golang-weather-cli-app)**  |Data structures, JSON response, API calls, encoding/json, flag, io, net/http, net/url |
-| **[Golang RESTful API Demo](#golang-restful-api-demo)**  |RESTful API, encoding/json, net/http, Gorilla/Mux  |
-
----
-
-## Larger Projects
+## Projects
 
 ### Ticket Raising Platform Backend
-**Tech: Gorilla/Mux, MySQl, JSON Web Tokens, bcrypt, Render, Mailtrap, net/http, validation, authentication, RESTful APIs, CRUD operations**
 
-A full backend for a support ticket system built around Go's standard net/http, with a MySQL database behind it.
+**Tech: Go, MySQL, REST APIs, JWT, bcrypt, Gorilla/Mux, Render, Mailtrap**
 
-**Key Features**:
-- JWT-based authentication and authorisation
-- Full CRUD on tickets, with categorisation and tracking
-- In-thread messaging on tickets
-- Email notifications on ticket updates (tested via Mailtrap)
-  
+A backend for a support ticket system, built with Go's standard `net/http` package and a MySQL database.
+
+**Key features:**
+
+* JWT-based authentication and authorisation
+* CRUD operations for tickets, including categorisation and tracking
+* In-thread ticket messaging
+* Email notifications for ticket updates
+
 [Explore Ticket Raising Platform Backend](https://github.com/amy324/Ticket-Raising-Platform-Backend)
 
 ### Steam Games Data CLI App
-**Tech: Web Scraping, Goquery, Cobra, Encoding, JSON parsing, CSV parsing, regex, os/exec, bufio, bytes, net/http**
 
-A CLI that scrapes game data straight from the Steam store — titles, prices, release dates, reviews, tags, developers, publishers, system requirements.
+**Tech: Go, Web Scraping, Goquery, Cobra, JSON, CSV, regex**
 
-**Key Features**:
-- Exports scraped data to both JSON and CSV
-- Search by keyword from the command line
-- Pull deep-dive details (description, dev, publisher, requirements) for a specific game by link
-- Built with Steam's Data Terms of Use in mind
+A command-line tool that collects game data from the Steam store, including titles, prices, release dates, reviews, tags, developers and system requirements.
+
+**Key features:**
+
+* Exports data to JSON and CSV
+* Keyword searching from the command line
+* Retrieves detailed information for individual games
+* Designed with Steam's Data Terms of Use in mind
 
 [Explore Steam Games Data CLI App](https://github.com/amy324/Steam-Games-Data-CLI-App)
 
-## Blogging Platform Infastructure
-**Tech: IaC, Terraform, HCL, Prometheus, Docker, Golang, Gin, ORM, PostgreSQL**
+### Blogging Platform Infrastructure
 
-An SRE-focused infrastructure project built to demonstrate reliability, automated provisioning, and observability.
+**Tech: Terraform, Docker, Prometheus, Go, Gin, PostgreSQL**
 
-**Key Features**:
-- Dockerized components, orchestrated and provisioned via Terraform (IaC)
-- Prometheus monitoring for real-time metrics and alerting on KPIs/SLOs
-- Container health checks and automatic restarts for resilience
-- Built to scale horizontally (Docker Swarm/Kubernetes-ready)
+An infrastructure-focused project demonstrating automated provisioning, containerisation and observability around a small blogging platform.
 
-[Check Out The Project Here](https://github.com/amy324/Blogging-Platform-Infrastructure)
+**Key features:**
+
+* Infrastructure provisioned with Terraform
+* Containerised application components
+* Prometheus monitoring and alerting
+* Health checks and automatic container recovery
+* Designed with horizontal scaling in mind
+
+[Explore Blogging Platform Infrastructure](https://github.com/amy324/Blogging-Platform-Infrastructure)
 
 ### Advanced Data Analysis CLI Framework
-**Tech: MySQL, Cobra, Python, Python, pandas, sklearn, os/ex**
 
-A hybrid CLI tool built for customisable data analysis pipelines. Modelled after a production tool developed for a customer project.
+**Tech: Go, Python, MySQL, Cobra, pandas, scikit-learn**
 
-**Key Features**:
-- Modular structure so it's easy to extend
-- Connects to MySQL for storing/retrieving results
-- Plug in your own Python or Go scripts for custom analysis
-- Contains a working example: logistic regression on CSV data via scikit-learn
+A command-line framework designed to **let users run and extend their own data analysis workflows**. It was inspired by a production-style analysis tool and provides the framework around which individual analyses can be run.
+
+**Key features:**
+
+* Modular structure for adding custom analysis scripts
+* MySQL integration for storing and retrieving results
+* Supports user-provided Python or Go analysis scripts
+* Includes a sample logistic regression analysis using scikit-learn
 
 [Explore Advanced Data Analysis CLI Framework](https://github.com/amy324/CLI-Framework-for-Advanced-Analysis)
 
-## Demonstrative Projects/Microservices 
+### CI/CD Pipeline Automation Tool
 
-### Port Scanner
-**Tech: Python, Socket Programming, CLI, TCP, IP Address Scanning, Network Troubleshooting, Monitoring, Networking Protocols, Date and Time Handling, ASCII Artt**
+**Tech: Go, Cobra, YAML, Go-Git**
 
-Scans a target IP across the full port range (1–65535) for network troubleshooting and basic security auditing. Includes timestamped output and ASCII art banners via pyfiglet.
+A CLI tool for automating a CI/CD workflow for Go projects. It takes a repository, branch and test command as configuration and handles fetching the code, running tests and deploying.
 
-[Explore the Port Scanner on GitHub](https://github.com/amy324/Port-Scanner)
-
-### CI-CD Pipeline Automation Tool
-**CI/CD Pipeline Automation, Cobra, yaml, Go-Git.**
-
-A CLI tool for automating CI/CD on Go projects. Configure the repository URL, branch, and test command, and it handles fetching source code, running tests, and deploying.
-
-[View the Project here](https://github.com/amy324/CI-CD-Pipeline-Automation-Tool)
+[Explore CI/CD Pipeline Automation Tool](https://github.com/amy324/CI-CD-Pipeline-Automation-Tool)
 
 ### Concurrent Task Scheduler
-**Tech: Concurrency, Pointers, Goroutines, Mutexes, Logrus, sync, testing.**
 
-Runs multiple tasks concurrently while limiting how many execute at once, to manage resource usage. Structured logging via Logrus provides visibility into task execution.
+**Tech: Go, Goroutines, Mutexes, Logrus, Testing**
 
-[Check out the Concurrent Task Scheduler here](https://github.com/amy324/Concurrent-Task-Scheduler)
+A scheduler that runs tasks concurrently while limiting the number running at once.
 
+Uses structured logging to provide visibility into task execution.
 
-### Markdown to HTML Microservice
-**Tech: Regex**
-
-Converts Markdown to HTML using regular expressions — handles headings, bold/italic text, lists, links, and images. Includes a sample input in main.go for testing.
-
-[Click here for the Markdown to HTML Microservice](https://github.com/amy324/Markdown-To-HTML-Microservice.git)
+[Explore Concurrent Task Scheduler](https://github.com/amy324/Concurrent-Task-Scheduler)
 
 ### URL Shortener Microservice
-**Tech: Redis, Gorilla/Mux, Godotenv, Encoding/JSON, net/http, os, Render, httptest, testing, APIs**
-Shortens URLs and redirects to the original destination. Uses Gorilla Mux for routing and Redis for fast storage and retrieval. Structured for scalability, with a full test suite (main_test.go) and detailed documentation.
 
-[Explore the URL Shortener Microservice on GitHub](https://github.com/amy324/Go-URL-Shortener-Microservice)
+**Tech: Go, Redis, Gorilla/Mux, REST APIs, Testing**
 
-This project demonstrates expertise in backend development and provides a practical solution for managing lengthy URLs effectively.
+A URL shortening service that stores shortened URLs in Redis and redirects requests to their original destinations.
+
+Includes a test suite and documentation covering the API and implementation.
+
+[Explore URL Shortener Microservice](https://github.com/amy324/Go-URL-Shortener-Microservice)
 
 ### Fake Payment Gateway Microservice
-**Tech: PostgreSQL, Encoding/json, net/http, Goluhn, Gorilla/Mux, Lib/pq, validation**
 
-A demonstration payment gateway, not intended for real transactions.
+**Tech: Go, PostgreSQL, REST APIs, Validation**
 
-- Validates card numbers using the Luhn algorithm
-- Stores payment information in PostgreSQL
--  Endpoints for submitting payments and retrieving invoices by ID
+A demonstration payment gateway for development and testing rather than real transactions.
 
-[Explore the Fake Payment Gateway Microservice on GitHub](https://github.com/amy324/Fake-Payment-Gateway-Microservice)
+* Validates card numbers using the Luhn algorithm
+* Stores payment information in PostgreSQL
+* Provides endpoints for submitting payments and retrieving invoices
 
+[Explore Fake Payment Gateway Microservice](https://github.com/amy324/Fake-Payment-Gateway-Microservice)
 
-### Monte Carlo Pi Simulator
-**Tech: Concurrency, Modular Structure, Gonum/Plot**
+### Port Scanner
 
-Estimates π via Monte Carlo simulation, generating and processing random points concurrently, then plots the results as a scatter graph saved to PNG.
+**Tech: Python, Socket Programming, TCP/IP, CLI**
 
-[View Monte Carlo Pi Simulator on GitHub](https://github.com/amy324/Golang-Monte-Carlo-Simulator)
+A CLI port scanner that checks ports 1–65535 on a target IP address.
 
-### CSV Parsing CLI Tool
-**Tech: PostgreSQL, Lib/pq, Encoding/csv, os, Cobra, strconv**
+Includes timestamped output and a small ASCII banner.
 
-Parses CSV files, saves the data to PostgreSQL via a connectdb command, and performs calculations.
+[Explore Port Scanner](https://github.com/amy324/Port-Scanner)
 
-[CSV Parsing CLI Tool](https://github.com/amy324/CLI-CSV-Parsing-Tool)
+### Markdown to HTML Microservice
 
-### Classic Computer Science Problems Series
+**Tech: Go, Regex**
 
-Implementations of classic problems using Goroutines and Go concurrency features.
+A microservice that converts basic Markdown into HTML using regular expressions, including headings, formatting, lists, links and images.
 
-**Projects**:
-- [**Dijkstra's Algorithm for Shortest Paths**](https://github.com/amy324/Golang-Algorithm-for-Shortest-Paths)
-     * **Tech: initialize the graph, add edges, and calculate shortest paths from a specified source vertex**
-- [**Sleeping Barber Problem**](https://github.com/amy324/Golang-Sleeping-Barber-Problem)
-     * **Tech: Concurrency, Pointers, Goroutines, Channels, Randomized, Time-Based.**
-- [**Dining Philosophers Problem**](https://github.com/amy324/Dining-Philosophers-Problem)
-     * **Tech: Concurrency, Goroutines, Mutexes, Synchronization, Algorithm, testing**
-- [**Producer-Consumer Problem**](https://github.com/amy324/Goroutine-Producer-Consumer-Problem)
-     * **Tech: Concurrency, Goroutines, Pointers, Syncronization, Buffer**
-
-### CLI To-Do List App
-**Tech: CRUD (Create, Read, Update, Delete) operations, bufio, os, strconv**
-
-A basic task manager supporting add, view, complete, and delete operations — a clean CRUD implementation in Go.
-
-[Check out the CLI To-Do List App](https://github.com/amy324/Golang-Todo-List-CLI-App)
-
-### Golang Weather CLI App
-**Tech: Data structures, JSON response, API calls, encoding/json, flag, io, net/http, net/url**
-
-Fetches current weather for a given location, with support for automatic detection or manual entry, through a simple CLI.
-
-[Explore Golang Weather CLI App](https://github.com/amy324/Golang-CLI-Weather-App)
-
-### Golang RESTful API Demo
-**Tech: RESTful API, encoding/json, net/http, Gorilla/Mux**
-
-A minimal REST API demonstrating endpoint design in Go — includes endpoints for submitting data points and retrieving analysis results.
-
-[Golang RESTful API Demo](https://github.com/amy324/RESTful-API-Demo-Golang)
-
+[Explore Markdown to HTML Microservice](https://github.com/amy324/Markdown-To-HTML-Microservice)
 
 
 
